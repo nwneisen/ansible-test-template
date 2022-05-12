@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  ubuntu:
+    container_name: ubuntu
+    hostname: ubuntu
+    build: .
+    ports:
+      - "22:22"

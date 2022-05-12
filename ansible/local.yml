@@ -1,0 +1,5 @@
+- hosts: all
+  become: true
+  tasks:
+  - name: Install git
+    apt: name=git
